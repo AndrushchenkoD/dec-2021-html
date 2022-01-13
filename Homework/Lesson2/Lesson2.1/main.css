@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+}
+h1{
+    display: flex;
+    background: #a41414;
+    color: bisque;
+    justify-content: center;
+    padding-right: 200px;
+}
+.psilver{
+    background: silver;
+    padding: 10px;
+}
+.pblue{
+    background: cornflowerblue;
+    padding-top: 40px ;
+    padding-bottom: 40px ;
+    align-items: center;
+}
+.gsquare{
+    width: 200px;
+    height: 200px;
+    background: #b0e071;
+}
+.ssquare{
+    width: 200px;
+    height: 200px;
+    background: silver;
+    border-radius: 20px;
+}
