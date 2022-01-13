@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: #252525 ;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.button {
+    display: flex;
+    height: 60px;
+    width: 250px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.bg1{
+    border: solid #FF6E1D 8px ;
+    border-radius: 50px;
+    color: #FF6E1D;
+}
+.bg2{
+    border: solid #2CFFF2 8px;
+    border-radius: 50px;
+    color: #2CFFF2;
+}
+.bg3{
+    border: solid #FF54A6 8px;
+    border-radius: 50px;
+    color: #FF54A6;
+}
+.bg4{
+    border: solid #FF3E3E 8px;
+    border-radius: 50px;
+    color: #FF3E3E;
+}
+
