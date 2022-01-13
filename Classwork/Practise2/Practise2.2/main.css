@@ -1,0 +1,12 @@
+
+.A{
+    width: 350px;
+    height: 200px;
+    background: gray;
+    margin: 100px 0 0 10px;
+    box-shadow: #D4B690 -17px -17px 27px 10px ;
+}
+.pborder{
+    border-left: solid red 5px ;
+}
+p{margin-left: 10px }
