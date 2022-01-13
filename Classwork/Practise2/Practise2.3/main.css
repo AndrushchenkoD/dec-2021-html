@@ -1,0 +1,19 @@
+body{margin: 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px}
+
+.top{ display: flex;
+    flex-direction: row;
+    column-gap: 100px;}
+
+.square{display: flex;
+    background: darkorange;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    box-shadow: #6a5f5f 30px 30px 10px 10px}
+.silvershadow{
+    box-shadow: silver 30px 30px 10px 10px;
+}
