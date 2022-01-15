@@ -1,0 +1,38 @@
+body{
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 13%;
+    background: #0C65A7;
+}
+.nav{
+    background: #124B78;
+    height: 10%;
+}
+.content{display: flex;
+    flex-direction: row;
+    height: 64%;}
+.main{
+    background: #16A2C5;
+    flex-grow: 4
+}
+.aside{
+    background: #5275AD;
+    flex-grow: 1
+}
+.footer{
+    height: 13%;
+    background: #7DCCE3;
+}
+
+
+
+
+.AJC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1%;
+}
+.widgets{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2269BB;
+    flex-grow: 1}
+.content{
+    display: flex;
+flex-direction: row;
+    column-gap: 1%;
+    flex-grow: 1;
+}
+.bbw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-grow: 1;
+    background: #16457A;
+}

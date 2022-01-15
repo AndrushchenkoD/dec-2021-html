@@ -1,0 +1,22 @@
+body{
+    box-sizing: border-box;
+    padding: 20% 2% 20% 2%;
+    height: 100vh;
+    background: #06BCD4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+.product{
+    height: 150px;
+    width: 450px;
+    margin: 1%;
+    display: flex;
+    column-gap: 8px;
+    background: white;
+    border-radius: 10px;
+    align-items: center;
+    padding: 8px;
+}
+h3{color: #FCA533;}
