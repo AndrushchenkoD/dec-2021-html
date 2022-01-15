@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+    flex-grow: 2;
+}
+.kabobs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background: #2269BB;
+    color: white;
+}
+.bgblue{
+    background: #16457A;
+}
+.fg1{flex-grow: 1}
