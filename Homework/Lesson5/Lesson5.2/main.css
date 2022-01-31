@@ -1,0 +1,147 @@
+@media screen and (min-width: 576px){
+body{margin: 0}
+.base{width: 700px;
+    display: flex;
+flex-direction: column;
+row-gap: 8px;
+}
+.wrap3{display: none}
+.d8{display: none}
+.d9{display: none}
+
+.topbar{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+.logo{height: 50px;
+width: 100px;
+    background: black;}
+    .logo1{height: 50px;
+        width: 100px;
+        background: black;}
+.header{height: 50px;
+width: 508px;
+    background: black;}
+.content{display: flex;
+    flex-direction: row;
+column-gap: 8px;}
+.d3{height: 500px;
+    width: 100px;
+    background: #000;
+}
+.d4{width: 400px;
+    height: 150px;
+    background: #000;}
+.d5{
+    height: 150px;
+width: 100px;
+    background: #000;}
+.d6{
+    height: 450px;
+width: 400px;
+    background: #000;}
+.footer{
+    height: 150px;
+    width: 616px;
+    background: #000;
+}
+.d7{
+    height: 450px;
+    width: 100px;
+    background: #000;
+}
+.wrap1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.wrap2{display: flex;
+flex-wrap: wrap;
+row-gap: 8px;
+column-gap: 8px;}
+.color{color: white}
+.wrap3{display: none;}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media screen and (max-width: 576px) {
+    body{margin: 0}
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .base{
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+    .topbar{
+        display: flex;
+        flex-direction: row;
+        column-gap: 8px;
+}
+.logo{height: 50px;
+width: 100px;
+    background: #000;}
+.header{
+    height: 50px;
+    width: 200px;
+    background: #000;
+}
+.content{display: flex;
+flex-direction: column;
+row-gap: 8px;
+}
+.d3{
+    background: #000;
+    height: 50px;
+    width: 308px;}
+.wrap2{
+    row-gap: 8px;
+    column-gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.d4{
+    height: 100px;
+    width: 250px;
+    background: #000;}
+.d5{
+    height: 100px;
+    width: 50px;
+    background: #000;
+}
+.logo1{display: none;}
+
+.d6{width: 308px;
+    height: 450px;
+    background: #000;
+}
+.d7{width: 308px;
+height: 100px;
+    background: #000;
+}
+.wrap3{
+    display: flex;
+    flex-direction: row;
+    column-gap: 8px;
+}
+.d8{height: 50px;
+width: 150px;
+    background: #000;}
+.d9{height: 50px;
+width: 150px;
+    background: #000;}
+.footer{
+    background: #000;
+    width: 308px;
+    height: 100px;
+}
+}
